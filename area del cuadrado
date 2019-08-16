@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+//----------
+using namespace std;
+
+void main()
+
+{
+ float area,a;
+ cout<< "ingrese a: ";
+ cin>> a;
+ area= a*a;
+ cout<< area;
+ getch();
+}
+
