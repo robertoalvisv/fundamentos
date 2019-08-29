@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+//---------------------
+using namespace std;
+void main()
+
+{
+	
+	float c,a,i,is;
+	cout<< "ingrese el capital: ";
+	cin>> c;
+	cout<< "ingrese el periodo de años: ";
+	cin>> a;
+	cout<< "ingrese el interes: ";
+	cin>> i;
+	is=c*(i/100)*(a/365);
+	cout<<"el interes simple es: "<< is;
+	
+	getch();
+}
