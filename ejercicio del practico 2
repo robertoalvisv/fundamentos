@@ -1,0 +1,32 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+//---------------------
+using namespace std;
+void main()
+
+{
+	
+	float promedio,a,b,c;
+	cout<< "ingrese a: ";
+	cin>> a;
+	if (a<=10&&a>0)
+	{
+		cout<< "ingrese b: ";
+		cin>> b;
+	if (b<=10&&b>0)
+	{
+
+		cout<< "ingrese c: ";
+		cin>> c;
+		if (c<=10&&c>0)
+	{
+		promedio=((a+b+c)/3);
+		cout<<"el promedio es: ";
+		cout<<promedio;
+		}
+	}
+}
+
+getch();
+}
