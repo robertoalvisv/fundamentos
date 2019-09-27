@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main ()
+
+{
+	int n;
+	int numeros [100];
+	int suma, i;
+	suma =0;
+	cout<<"ingre la cantidad de elementos: ";
+	cin>>n;
+	for(int i=0;i<n;i++){
+		cout<<"ingrese el numero: ";
+		cin>> numeros[i];
+	}
+	for(int i=0;i<n;i++){
+		suma=suma+numeros[i];
+	}
+	cout<<"la suma de sus vectores es: "<<suma<<endl;
+	getch();
+}
